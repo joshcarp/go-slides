@@ -253,15 +253,16 @@ Execute with
 - 7,000 concurrent requests
 - Apache's `ab` command on Linux
 
-    ab -n 7000 -c 7000 -s 200 localhost:8080/ping  # Java
-    ab -n 7000 -c 7000 -s 200 localhost:9090/ping  # go
+    ab -n 7000 -c 7000 -s 200 -q -r localhost:8080/ping  # Java
+    ab -n 7000 -c 7000 -s 200 -q -r localhost:9090/ping  # go
 
 - Results
 
 	Java median: 36.2 sec
-	Java max:    70.3 sec
+	Java 95%:    68.14 sec
+
 	Go median:   2.3 sec
-	Go max:      3.0 sec
+	Go 95%:      2.35 sec
 
 - Further details on [[https://github.com/anz-bank/go-slides/tree/master/pingserver#benchmark][GitHub]]
 
