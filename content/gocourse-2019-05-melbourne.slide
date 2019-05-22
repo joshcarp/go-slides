@@ -267,7 +267,7 @@ Execute with
 - Further details on [[https://github.com/anz-bank/go-slides/tree/master/pingserver#benchmark][GitHub]]
 
 * Benchmark
-- Range of concurrent requests from 1,000 to 9,000
+- Range of concurrent requests from 1,000 to 19,000
 .image _img/JavaVsGoLoadTest.png 500 _
 
 * Interlude: Towards Continuous Deployment
