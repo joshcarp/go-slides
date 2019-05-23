@@ -12,7 +12,7 @@ public class PingController {
     @ResponseBody
     String ping() throws Exception {
         Thread.sleep(2000L);
-        return "pong";
+        return "pong\n";
     }
 
 }
