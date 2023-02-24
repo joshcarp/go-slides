@@ -4,8 +4,13 @@ require (
 	github.com/go-chi/chi v4.0.1+incompatible
 	github.com/go-chi/render v1.0.1
 	github.com/stretchr/testify v1.3.0
-	golang.org/x/net v0.0.0-20190125091013-d26f9f9a57f3 // indirect
-	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4 // indirect
-	golang.org/x/tools v0.0.0-20190131163942-067a2f313b69
-	google.golang.org/appengine v1.4.0 // indirect
+	golang.org/x/tools v0.1.12
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/yuin/goldmark v1.4.13 // indirect
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
 )
